@@ -60,7 +60,7 @@ for (var e = document.getElementsByClassName("menuVirescentOverlord2"), d = 0; d
   };
   let l = document.createElement("div"),
     m = document.createElement("div");
-  l.appendChild(m), a.appendChild(l), m.innerHTML = `<div class="text-rainbow-animation"> Made By Jesus</div>`, m.style.display = "block", m.style.margin = "10px", m.style.minHeight = "70px";
+  l.appendChild(m), a.appendChild(l), m.innerHTML = `<div class="text-rainbow-animation"> Made By Ryan</div>`, m.style.display = "block", m.style.margin = "10px", m.style.minHeight = "70px";
   let n = document.createElement("span");
   m.appendChild(n), document.body.append(a);
   let o = document.createElement("div");

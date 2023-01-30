@@ -73,7 +73,7 @@ for (var e = document.getElementsByClassName("menuVirescentOverlord2"), d = 0; d
         var b = document.createElement("div");
         b.style.background = "black", b.className = "menuVirescentOverlord1", b.style.textAlign = "center", b.style.transform = "translateX(-50%)", b.style.border = "1px solid white", b.style.padding = "1vmin", b.style.position = "fixed", b.style.left = "50%", b.style.borderRadius = "1vmin", b.style.zIndex = "9999", b.textContent += "\u3164Made By Virescent Overlord, The solution is: " + ans, b.style.color = "white", document.body.appendChild(b)
       },
-      "Multiple Choice Hack": () => {
+      "Multiple Choice": () => {
         for (var a = document.getElementsByClassName("menuVirescentOverlord1"), b = 0; b < a.length; b++) a[b].hidden = !0;
         javascript: ans = CurrentProblem.CorrectAnswer;
         problemType = CurrentProblem.TypeNew;
@@ -131,7 +131,7 @@ for (var e = document.getElementsByClassName("menuVirescentOverlord2"), d = 0; d
           c.remove();
         }
       },
-      "Focus Time Hack": () => {
+      "Focus Time": () => {
         javascript: if (window.location.href.indexOf("index?") != -1) {
           function a(a) {
             return 9 < a ? a : "0" + a

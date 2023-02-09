@@ -89,7 +89,7 @@ for (
     (i.style.paddingTop = '2px'),
     (i.style.fontSize = '1.2rem'),
     (i.style.textAlign = 'center'),
-    (i.innerHTML = 'MobyWare'),
+    (i.innerHTML = 'MobyWare Dev V3.274'),
     (i.zIndex = '9999'),
     (i.style.fontFamily = 'arial black');
   let t,
@@ -356,7 +356,7 @@ for (
     },
   };
   (r = document.createElement('details')),
-    (r.innerHTML = `<summary style="padding: 10px; font-size: 1.5em; font-weight: bolder">MAin Scripts ↴</summary>`);
+    (r.innerHTML = `<summary style="padding: 10px; font-size: 1.5em; font-weight: bolder">Main Scripts ↴</summary>`);
   for (var q = 0; q < Object.keys(p.global).length; q++) {
     let c = b(Object.keys(p.global)[q]);
     (c.onclick = p.global[Object.keys(p.global)[q]]), r.appendChild(c);
